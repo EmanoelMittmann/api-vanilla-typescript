@@ -74,7 +74,6 @@ export class Main {
                         res.setHeader(header.name, header.value)
                     })
                 }
-                // await handleEndpoint
             } else {
                 res.statusCode = 404;
                 res.end()
